@@ -1,0 +1,69 @@
+<!-- <ion-content>
+  <div class="main">
+    <div class="login_page_box">
+      <div class="title">
+        <h3>Login Now</h3>
+      </div>
+      <form action="">
+        <ion-input
+          label="Email"
+          label-placement="floating"
+          fill="outline"
+          placeholder="Enter Your Email"
+          style="text-align: left"
+        ></ion-input>
+        <ion-input
+          type="Password"
+          label="Password"
+          label-placement="floating"
+          fill="outline"
+          placeholder="Enter Password"
+          style="text-align: left"
+        ></ion-input>
+
+        <h5 style="float: right;padding-right: 20px;">Forgot Password?</h5>
+        <ion-button style="margin-top: 30px;" id="signin" routerLink="/home/dashboard">Sign in</ion-button>
+        <h5 style="text-align: center;">Don't have any account? Signup</h5>
+      </form>
+    </div>
+  </div>
+</ion-content> -->
+
+<ion-content>
+  <div class="login_img">
+    <img src="assets/bgcc.jpg" alt="" />
+  </div>
+  <div class="form_box">
+    <div class="title">
+      <h2>Welcome Back</h2>
+      <p>Login to your Account</p>
+    </div>
+    <form action="">
+      <ion-input
+        type="Email"
+        label="Email Address"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Enter Your Email"
+      ></ion-input>
+
+      <ion-input
+        type="Password"
+        label="Enter Password"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Enter Your Password"
+      ></ion-input>
+
+      <h6 style="float: right;">Forgot Password?</h6>
+
+      <ion-button routerLink="/home/dashboard">Login</ion-button>
+    </form>
+    <div class="signup_link">
+      Don't have any account? 
+      <b style="color: orangered; text-decoration: underline;" routerLink="/auth/signup_page">
+        &nbsp;Sign Up
+      </b>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,11 @@
+{
+  "appId": "com.bhojan.app",
+  "appName": "Bhojan",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

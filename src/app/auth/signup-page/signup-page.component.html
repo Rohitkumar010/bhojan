@@ -1,0 +1,85 @@
+<!-- <ion-content>
+  <div class="main">
+    <div class="login_page_box">
+      <div class="title">
+        <h2>Signup</h2>
+      </div>
+      <form action="">
+        <ion-input
+          label="Name"
+          label-placement="floating"
+          fill="outline"
+          placeholder="Enter Your Name"
+          style="text-align: left"
+        ></ion-input>
+        <ion-input
+          label="Email"
+          label-placement="floating"
+          fill="outline"
+          placeholder="Enter Your Email"
+          style="text-align: left"
+        ></ion-input>
+        <ion-input
+          type="Password"
+          label="Password"
+          label-placement="floating"
+          fill="outline"
+          placeholder="Enter Password"
+          style="text-align: left"
+        ></ion-input>
+
+        <ion-button id="signup">Sign Up</ion-button>
+        <ion-button id="forgot" routerLink="/auth/login_page">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+          Back to Login
+        </ion-button>
+      </form>
+    </div>
+  </div>
+</ion-content> -->
+
+<ion-content>
+  <div class="login_img">
+    <img src="assets/bgcc.jpg" alt="" />
+  </div>
+  <div class="form_box">
+    <div class="title">
+      <h3>Register Now</h3>
+      <p>Create your New Account</p>
+    </div>
+    <form action="">
+      <ion-input
+        label="Your Name"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Enter Your Name"
+      ></ion-input>
+      <ion-input
+        type="Email"
+        label="Email Address"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Enter Your Email"
+      ></ion-input>
+
+      <ion-input
+        type="Password"
+        label="Enter Password"
+        label-placement="floating"
+        fill="outline"
+        placeholder="Enter Your Password"
+      ></ion-input>
+
+      <ion-button routerLink="/auth/login_page">Register</ion-button>
+    </form>
+    <div class="signup_link">
+      Already have an account?
+      <b
+        style="color: orangered; text-decoration: underline"
+        routerLink="/auth/login_page"
+      >
+        &nbsp;Login
+      </b>
+    </div>
+  </div>
+</ion-content>
