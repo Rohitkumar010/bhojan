@@ -1,0 +1,30 @@
+<ion-content>
+  <div class="login_img">
+    <img src="assets/bgcc.jpg" alt="" />
+  </div>
+  <div class="form_box">
+    <div class="title">
+      <h2>Verify Your Email</h2>
+      <p>Enter the four digit OTP</p>
+    </div>
+    <form action="">
+      <div class="fields">
+        <input type="number" />
+        <input type="number" />
+        <input type="number" />
+        <input type="number" />
+      </div>
+
+      <ion-button routerLink="/auth/new_password" style="margin-top: 30px"
+        >Verify and Proceed</ion-button
+      >
+      <ion-button
+        routerLink="/auth/forgot_password"
+        style="--background: none; color: black"
+      >
+        <ion-icon name="arrow-back-outline"></ion-icon>
+        &nbsp;Go Back
+      </ion-button>
+    </form>
+  </div>
+</ion-content>

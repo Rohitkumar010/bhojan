@@ -5,6 +5,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { SignupPageComponent } from './signup-page/signup-page.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { NewPasswordComponent } from './new-password/new-password.component';
+import { EmailVerificationComponent } from './email-verification/email-verification.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'welcome_page', pathMatch: 'full' },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'login_page', component: LoginPageComponent },
   { path: 'signup_page', component: SignupPageComponent },
   { path: 'forgot_password', component: ForgotPasswordComponent },
+  { path: 'verify_email', component: EmailVerificationComponent },
   { path: 'new_password', component: NewPasswordComponent },
 ];
 

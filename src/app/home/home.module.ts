@@ -7,6 +7,10 @@ import { HomePage } from './home.page';
 import { HomePageRoutingModule } from './home-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NotificationsComponent } from './notifications/notifications.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { AccountComponent } from './account/account.component';
+import { BuyNowSectionComponent } from './buy-now-section/buy-now-section.component';
 
 @NgModule({
   imports: [
@@ -17,7 +21,11 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   ],
   declarations: [
     HomePage,
-    DashboardComponent
+    DashboardComponent,
+    NotificationsComponent,
+    SearchBarComponent,
+    AccountComponent,
+    BuyNowSectionComponent
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   

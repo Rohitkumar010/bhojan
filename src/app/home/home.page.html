@@ -1,7 +1,7 @@
 <ion-menu contentId="main-content">
   <ion-header>
     <ion-toolbar>
-      <ion-title>Bhojan</ion-title>
+      <ion-title>Bhojanalya</ion-title>
       <ion-buttons slot="end">
         <ion-menu-toggle>
           <ion-button shape="round">
@@ -15,41 +15,41 @@
   <ion-content>
     <ion-list>
       <ion-menu-toggle auto-hide="true">
-        <ion-item lines="full" routerLink="/home/myplanvalidity">
-          <ion-icon name="gift-outline"></ion-icon>
-          <ion-label>My Orders</ion-label>
+        <ion-item lines="full" routerLink="/home/account">
+          <ion-icon name="person-circle-outline"></ion-icon>
+          <ion-label>&nbsp;View Profile</ion-label>
         </ion-item>
       </ion-menu-toggle>
 
       <ion-menu-toggle auto-hide="true">
         <ion-item lines="full" routerLink="/home/mydeviceid">
-          <ion-icon name="id-card-outline"></ion-icon>
-          <ion-label>Categories</ion-label>
+          <ion-icon name="heart-circle-outline"></ion-icon>
+          <ion-label>&nbsp;Your Favorite</ion-label>
         </ion-item>
       </ion-menu-toggle>
 
       <ion-menu-toggle auto-hide="true">
         <ion-item lines="full" routerLink="/home/pages/contact-us">
-          <ion-icon name="earth-outline"></ion-icon>
-          <ion-label>Locations</ion-label>
+          <ion-icon name="cash-outline"></ion-icon>
+          <ion-label>&nbsp;Payments</ion-label>
         </ion-item>
       </ion-menu-toggle>
 
       <ion-menu-toggle auto-hide="true">
         <ion-item lines="full" routerLink="/home/pages/about-us">
-          <ion-icon name="information-circle-outline"></ion-icon>
-          <ion-label>About Us</ion-label>
+          <ion-icon name="settings-outline"></ion-icon>
+          <ion-label>&nbsp;Setting</ion-label>
         </ion-item>
       </ion-menu-toggle>
     </ion-list>
 
     <div class="sidebarBottom">
-      <ion-item lines="full">
+      <ion-item lines="full" routerLink="/auth/login_page">
         <ion-icon
           name="log-out-outline"
           style="transform: rotate(180deg)"
         ></ion-icon>
-        <ion-label>Logout</ion-label>
+        <ion-label>&nbsp;Logout</ion-label>
       </ion-item>
       <p class="ion-text-center">App Version: 0.1</p>
     </div>
@@ -62,7 +62,9 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title>Bhojan</ion-title>
+      <ion-title>
+        <b>Bhojanalya</b>
+      </ion-title>
 
       <ion-buttons slot="end">
         <ion-button shape="round" routerLink="/home/search">

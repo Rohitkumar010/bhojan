@@ -4,6 +4,9 @@ import { HomePage } from './home.page';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AccountComponent } from './account/account.component';
 import { CartComponent } from './cart/cart.component';
+import { NotificationsComponent } from './notifications/notifications.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { BuyNowSectionComponent } from './buy-now-section/buy-now-section.component';
 
 const routes: Routes = [
   {
@@ -14,8 +17,11 @@ const routes: Routes = [
       { path: 'dashboard', component: DashboardComponent },
       { path: 'account', component: AccountComponent },
       { path: 'cart', component: CartComponent },
+      { path: 'buy_now', component: BuyNowSectionComponent },
     ],
   },
+  { path: 'notification', component: NotificationsComponent },
+  { path: 'search', component: SearchBarComponent },
 ];
 
 @NgModule({
