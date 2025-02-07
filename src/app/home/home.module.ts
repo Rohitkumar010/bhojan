@@ -11,6 +11,8 @@ import { NotificationsComponent } from './notifications/notifications.component'
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { AccountComponent } from './account/account.component';
 import { BuyNowSectionComponent } from './buy-now-section/buy-now-section.component';
+import { CartComponent } from './cart/cart.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   imports: [
@@ -25,7 +27,9 @@ import { BuyNowSectionComponent } from './buy-now-section/buy-now-section.compon
     NotificationsComponent,
     SearchBarComponent,
     AccountComponent,
-    BuyNowSectionComponent
+    BuyNowSectionComponent,
+    CartComponent,
+    CategoriesComponent
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
   
